@@ -1,0 +1,16 @@
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+  <img width="300" alt="Sullivans" src="assets/sullivans.PNG" style="display:none">
+</div>
+
+<button (click)="getTides()">Get Tides</button>
+
+<ul>
+  <li *ngFor="let iTidePrediction of tidePredictions">
+    {{iTidePrediction.type}} - {{iTidePrediction.t}}          
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
