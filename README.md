@@ -1,5 +1,7 @@
 # Tides
 
+Gets beach tides for the next 48hrs at Sullivans Island so you know when to go to the beach and have a lot of sand :)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
 ## Development server
